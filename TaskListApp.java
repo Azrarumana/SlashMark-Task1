@@ -2,11 +2,11 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class TaskListApp {
-    private ArrayList<String> taskList;
+    private ArrayList<String> taskList;     //define an arraylist
     private Scanner scanner = new Scanner(System.in);
 
     public TaskListApp() {
-        taskList = new ArrayList<>();
+        taskList = new ArrayList<>();         //Create an arraylist to store tasks
     }
 
     public void start() {
@@ -82,7 +82,7 @@ public class TaskListApp {
     }
 
     public static void main(String[] args) {
-        TaskListApp taskListApp = new TaskListApp();
+        TaskListApp taskListApp = new TaskListApp();    //Create an instance of class TaskListApp
         taskListApp.start();
     }
 }
